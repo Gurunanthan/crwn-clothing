@@ -1,10 +1,8 @@
-import React from 'react'
-import CategoriesComponets from './Components/Categories/Categories.Componets'
-
+import Directory from './Components/directory/directory.Component';
+import categoryData from './Assets/Categories'
 const App = () => {
-  return (
-    <CategoriesComponets/>
-  )
-}
 
-export default App
+  return <Directory categories={categoryData} />;
+};
+
+export default App;
